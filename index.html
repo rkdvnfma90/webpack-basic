@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webpack Basic!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+  </head>
+  <body>
+    <h1>Webpack!!</h1>
+
+    <!-- 실제 index.html 파일이 있는 경로에서 ./images/logo.jpg는 찾을 수 없는 경로이다.-->
+    <!-- 하지만 번들이 생성된 dist 파일에서는 images 폴더에 바로 접근이 가능하다. -->
+    <img src="./images/logo.jpg" alt="logo" />
+  </body>
+</html>
